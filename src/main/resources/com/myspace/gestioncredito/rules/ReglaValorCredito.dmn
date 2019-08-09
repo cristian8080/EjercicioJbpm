@@ -25,15 +25,6 @@
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_0A4CD958-F94A-48AA-9426-93FA875A1F44" typeRef="string"/>
-      <dmn:rule id="_01F40718-006D-46D6-B4FF-1FC42E12BEFE">
-        <dmn:description>"monto excedido"</dmn:description>
-        <dmn:inputEntry id="_FB39A93F-A0CD-4A34-B8E0-F70FBA4FAD91">
-          <dmn:text>&gt;10000000</dmn:text>
-        </dmn:inputEntry>
-        <dmn:outputEntry id="_1162DAF4-06B0-468F-B05D-3D4950F25930">
-          <dmn:text>"ME"</dmn:text>
-        </dmn:outputEntry>
-      </dmn:rule>
       <dmn:rule id="_FA24112A-9A8B-437F-88C0-0E97233CB5DF">
         <dmn:description>"Capital sin amortizar"</dmn:description>
         <dmn:inputEntry id="_F1A04207-AEB3-4599-A874-19EFF29ABEFF">
@@ -65,7 +56,7 @@
             <kie:width>50.0</kie:width>
             <kie:width>212.0</kie:width>
             <kie:width>171.0</kie:width>
-            <kie:width>368.0</kie:width>
+            <kie:width>298.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
@@ -93,7 +84,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="478" y="67" width="100" height="50"/>
+        <dc:Bounds x="454" y="67" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_CA9EC744-4A2F-46DB-BE7A-9F24E4736EA3" dmnElementRef="_CA9EC744-4A2F-46DB-BE7A-9F24E4736EA3">
@@ -101,7 +92,7 @@
         <di:waypoint x="340" y="197"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_F08EB6CB-62D7-4278-9F90-93A375D64FAB" dmnElementRef="_F08EB6CB-62D7-4278-9F90-93A375D64FAB">
-        <di:waypoint x="528" y="117"/>
+        <di:waypoint x="504" y="117"/>
         <di:waypoint x="390" y="172"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
